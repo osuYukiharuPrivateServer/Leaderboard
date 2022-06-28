@@ -33,10 +33,15 @@
   <body>
 <div class="big_box">
 	<div class="sb">
+
   <h1 class="ui header">Leaderboard</h1>
-  <div class="ui button">
-    Default
-  </div>
+
+  <div class="ui four item menu" id="mode-menu">
+<a class="active item" data-mode="0" href="/?mode=0&sort=pp">osu!</a>
+<a class="item" data-mode="1" href="/?mode=1&sort=pp">osu!taiko</a>
+<a class="item" data-mode="2" href="/?mode=2&sort=pp">osu!catch</a>
+<a class="item" data-mode="3" href="/?mode=3&sort=pp">osu!mania</a>
+</div>
 
   <div class="ui menu">
 
@@ -45,6 +50,9 @@
     </div>
     <div class="item">
       {{p1}}
+    </div>
+	  <div class="item">
+      {{p3}}
     </div>
   </div>
 
@@ -284,7 +292,7 @@
   <div class="ui three column very relaxed grid">
     <div class="column">
       <p><a href="https://qsu.yukiharu.pw" target="_blank">osu! Yukiharu</a></p>
-      <p><a href="https://github.com/osuYukiharuPrivateServer" target="_blank">GitHub</a></p>
+      <p><a href="https://github.com/hedgehog-qd" target="_blank">GitHub</a></p>
       <p> </p>
       <p> </p>
     </div>
